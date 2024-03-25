@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Weather
+comment1.params=parser
+comment1.target=org.apache.commons.csv.CSVRecord\ hottest(org.apache.commons.csv.CSVParser)
+comment2.params=
+comment2.target=void\ testHottest()
+comment3.params=
+comment3.target=org.apache.commons.csv.CSVRecord\ hottestManyDays()
+comment4.params=
+comment4.target=void\ testHottestManyDays()
+comment5.params=largestSoFar\ largest
+comment5.target=org.apache.commons.csv.CSVRecord\ compareRecords(org.apache.commons.csv.CSVRecord,\ org.apache.commons.csv.CSVRecord)
+numComments=6

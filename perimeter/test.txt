@@ -1,0 +1,23 @@
+import edu.duke.*;
+
+public class PerimeterRunner {
+
+	public double getPerimeter (Shape s) {
+       		double total = 0;
+		Point prevPt = s.getLastPoint();
+		for (Point currPt : s.getPoints()){
+			double currDist = prevPt.distance(currPt);
+			total = total + currDist;
+			prevPt = currPt;
+		}
+		return total;
+	}
+
+
+
+	public static void main (String[] args) {
+      	  	PerimeterRunner pr = new PerimeterRunner();
+		pr.testPerimeter();
+    	}
+
+}
